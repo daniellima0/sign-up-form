@@ -1,0 +1,124 @@
+@font-face {
+    font-family: bruno-ace;
+    src: url("./assets/fonts/BrunoAce-Regular.ttf");
+}
+
+@font-face {
+    font-family: poppins-regular;
+    src: url("./assets/fonts/Poppins-Regular.ttf");
+}
+
+#container {
+    font-family: poppins-regular, sans-serif;
+    height: 100vh;
+    display: flex;
+}
+
+#left-side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("./assets/images/background.jpg");
+    background-size: cover;
+    width: 33%;
+}
+
+#logo-container {
+    margin-top: 150px;
+    width: 100%;
+    height: 8rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo-container img {
+    width: 4rem;
+}
+
+#logo-container p {
+    font-family: bruno-ace;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 4rem;
+    margin: 0 0.4rem;
+}
+
+#image-credit {
+    font-size: 0.7rem;
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 38rem;
+}
+
+#image-credit a {
+    text-decoration: underline;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+#right-side {
+    width: 67%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#title {
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin-top: 8rem;
+}
+
+#subtitle {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-top: 3rem;
+}
+
+form {
+    margin: 8rem auto;
+    display: flex;
+    flex-direction: column;
+    width: 34rem;
+}
+
+fieldset {
+    display: flex;
+    justify-content: space-between;
+}
+
+fieldset:nth-child(n + 2) {
+    margin-top: 2rem;
+}
+
+.input-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 0.5rem;
+}
+
+input{
+    width: 14rem;
+    height: 1.2rem;
+}
+
+#submit {
+    font-family: poppins-regular, sans-serif;
+    padding: 10px 32px;
+    background-color: #1f688b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+#login-text {
+    margin-top: 1.5rem;
+}
+
+#login-text a {
+    text-decoration: underline;
+    color: #1f688b;
+}
