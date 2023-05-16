@@ -75,10 +75,10 @@
 }
 
 form {
-    margin: 8rem auto;
+    margin: 6rem auto;
     display: flex;
     flex-direction: column;
-    width: 34rem;
+    width: 70%;
 }
 
 fieldset {
@@ -99,9 +99,20 @@ label {
     margin-bottom: 0.5rem;
 }
 
-input{
-    width: 14rem;
-    height: 1.2rem;
+input {
+    width: 25rem;
+    height: 2rem;
+    font-size: 0.9rem;
+    box-sizing: border-box;
+    padding-left: 0.7rem;
+    border: none;
+    border: 1px solid grey;
+    border-radius: 3px;
+}
+
+input::placeholder {
+    color: rgb(128, 128, 128, 0.5);
+    font-size: 0.9rem;
 }
 
 #submit {
@@ -112,9 +123,16 @@ input{
     border: none;
     border-radius: 5px;
     font-size: 1rem;
+    margin: auto;
+    margin-top: 5rem;
+}
+
+#submit:hover {
+    cursor: pointer;
 }
 
 #login-text {
+    margin: auto;
     margin-top: 1.5rem;
 }
 
